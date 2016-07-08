@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C127331D23B0BF007C5CAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C127321D23B0BF007C5CAD /* main.m */; };
+		18C127361D23B0BF007C5CAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C127351D23B0BF007C5CAD /* AppDelegate.m */; };
+		18C127391D23B0BF007C5CAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C127381D23B0BF007C5CAD /* ViewController.m */; };
+		18C1273C1D23B0BF007C5CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1273A1D23B0BF007C5CAD /* Main.storyboard */; };
+		18C1273E1D23B0BF007C5CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C1273D1D23B0BF007C5CAD /* Assets.xcassets */; };
+		18C127411D23B0BF007C5CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1273F1D23B0BF007C5CAD /* LaunchScreen.storyboard */; };
+		18C1274C1D23B0BF007C5CAD /* AceshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1274B1D23B0BF007C5CAD /* AceshiTests.m */; };
+		18C127571D23B0BF007C5CAD /* AceshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C127561D23B0BF007C5CAD /* AceshiUITests.m */; };
+		18C127821D23B431007C5CAD /* numText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18C127811D23B431007C5CAD /* numText.txt */; };
+		18C127891D23B579007C5CAD /* libwuyong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C127881D23B579007C5CAD /* libwuyong.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C127481D23B0BF007C5CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C127261D23B0BF007C5CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C1272D1D23B0BF007C5CAD;
+			remoteInfo = Aceshi;
+		};
+		18C127531D23B0BF007C5CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C127261D23B0BF007C5CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C1272D1D23B0BF007C5CAD;
+			remoteInfo = Aceshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C1272E1D23B0BF007C5CAD /* Aceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C127321D23B0BF007C5CAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C127341D23B0BF007C5CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C127351D23B0BF007C5CAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C127371D23B0BF007C5CAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C127381D23B0BF007C5CAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C1273B1D23B0BF007C5CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C1273D1D23B0BF007C5CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C127401D23B0BF007C5CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C127421D23B0BF007C5CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C127471D23B0BF007C5CAD /* AceshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AceshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C1274B1D23B0BF007C5CAD /* AceshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AceshiTests.m; sourceTree = "<group>"; };
+		18C1274D1D23B0BF007C5CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C127521D23B0BF007C5CAD /* AceshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AceshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C127561D23B0BF007C5CAD /* AceshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AceshiUITests.m; sourceTree = "<group>"; };
+		18C127581D23B0BF007C5CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C127641D23B0DF007C5CAD /* MathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
+		18C127811D23B431007C5CAD /* numText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numText.txt; sourceTree = "<group>"; };
+		18C127881D23B579007C5CAD /* libwuyong.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwuyong.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C1272B1D23B0BF007C5CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C127891D23B579007C5CAD /* libwuyong.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C127441D23B0BF007C5CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C1274F1D23B0BF007C5CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C127251D23B0BF007C5CAD = {
+			isa = PBXGroup;
+			children = (
+				18C127811D23B431007C5CAD /* numText.txt */,
+				18C127301D23B0BF007C5CAD /* Aceshi */,
+				18C1274A1D23B0BF007C5CAD /* AceshiTests */,
+				18C127551D23B0BF007C5CAD /* AceshiUITests */,
+				18C1272F1D23B0BF007C5CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C1272F1D23B0BF007C5CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C1272E1D23B0BF007C5CAD /* Aceshi.app */,
+				18C127471D23B0BF007C5CAD /* AceshiTests.xctest */,
+				18C127521D23B0BF007C5CAD /* AceshiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C127301D23B0BF007C5CAD /* Aceshi */ = {
+			isa = PBXGroup;
+			children = (
+				18C127341D23B0BF007C5CAD /* AppDelegate.h */,
+				18C127351D23B0BF007C5CAD /* AppDelegate.m */,
+				18C127371D23B0BF007C5CAD /* ViewController.h */,
+				18C127381D23B0BF007C5CAD /* ViewController.m */,
+				18C127641D23B0DF007C5CAD /* MathTool.h */,
+				18C127881D23B579007C5CAD /* libwuyong.a */,
+				18C1273A1D23B0BF007C5CAD /* Main.storyboard */,
+				18C1273D1D23B0BF007C5CAD /* Assets.xcassets */,
+				18C1273F1D23B0BF007C5CAD /* LaunchScreen.storyboard */,
+				18C127421D23B0BF007C5CAD /* Info.plist */,
+				18C127311D23B0BF007C5CAD /* Supporting Files */,
+			);
+			path = Aceshi;
+			sourceTree = "<group>";
+		};
+		18C127311D23B0BF007C5CAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C127321D23B0BF007C5CAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C1274A1D23B0BF007C5CAD /* AceshiTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C1274B1D23B0BF007C5CAD /* AceshiTests.m */,
+				18C1274D1D23B0BF007C5CAD /* Info.plist */,
+			);
+			path = AceshiTests;
+			sourceTree = "<group>";
+		};
+		18C127551D23B0BF007C5CAD /* AceshiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C127561D23B0BF007C5CAD /* AceshiUITests.m */,
+				18C127581D23B0BF007C5CAD /* Info.plist */,
+			);
+			path = AceshiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C1272D1D23B0BF007C5CAD /* Aceshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C1275B1D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "Aceshi" */;
+			buildPhases = (
+				18C1272A1D23B0BF007C5CAD /* Sources */,
+				18C1272B1D23B0BF007C5CAD /* Frameworks */,
+				18C1272C1D23B0BF007C5CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aceshi;
+			productName = Aceshi;
+			productReference = 18C1272E1D23B0BF007C5CAD /* Aceshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C127461D23B0BF007C5CAD /* AceshiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C1275E1D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "AceshiTests" */;
+			buildPhases = (
+				18C127431D23B0BF007C5CAD /* Sources */,
+				18C127441D23B0BF007C5CAD /* Frameworks */,
+				18C127451D23B0BF007C5CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C127491D23B0BF007C5CAD /* PBXTargetDependency */,
+			);
+			name = AceshiTests;
+			productName = AceshiTests;
+			productReference = 18C127471D23B0BF007C5CAD /* AceshiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C127511D23B0BF007C5CAD /* AceshiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C127611D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "AceshiUITests" */;
+			buildPhases = (
+				18C1274E1D23B0BF007C5CAD /* Sources */,
+				18C1274F1D23B0BF007C5CAD /* Frameworks */,
+				18C127501D23B0BF007C5CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C127541D23B0BF007C5CAD /* PBXTargetDependency */,
+			);
+			name = AceshiUITests;
+			productName = AceshiUITests;
+			productReference = 18C127521D23B0BF007C5CAD /* AceshiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C127261D23B0BF007C5CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王渊浩";
+				TargetAttributes = {
+					18C1272D1D23B0BF007C5CAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18C127461D23B0BF007C5CAD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18C1272D1D23B0BF007C5CAD;
+					};
+					18C127511D23B0BF007C5CAD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18C1272D1D23B0BF007C5CAD;
+					};
+				};
+			};
+			buildConfigurationList = 18C127291D23B0BF007C5CAD /* Build configuration list for PBXProject "Aceshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C127251D23B0BF007C5CAD;
+			productRefGroup = 18C1272F1D23B0BF007C5CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C1272D1D23B0BF007C5CAD /* Aceshi */,
+				18C127461D23B0BF007C5CAD /* AceshiTests */,
+				18C127511D23B0BF007C5CAD /* AceshiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C1272C1D23B0BF007C5CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C127411D23B0BF007C5CAD /* LaunchScreen.storyboard in Resources */,
+				18C1273E1D23B0BF007C5CAD /* Assets.xcassets in Resources */,
+				18C127821D23B431007C5CAD /* numText.txt in Resources */,
+				18C1273C1D23B0BF007C5CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C127451D23B0BF007C5CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C127501D23B0BF007C5CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C1272A1D23B0BF007C5CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C127391D23B0BF007C5CAD /* ViewController.m in Sources */,
+				18C127361D23B0BF007C5CAD /* AppDelegate.m in Sources */,
+				18C127331D23B0BF007C5CAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C127431D23B0BF007C5CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1274C1D23B0BF007C5CAD /* AceshiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C1274E1D23B0BF007C5CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C127571D23B0BF007C5CAD /* AceshiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C127491D23B0BF007C5CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C1272D1D23B0BF007C5CAD /* Aceshi */;
+			targetProxy = 18C127481D23B0BF007C5CAD /* PBXContainerItemProxy */;
+		};
+		18C127541D23B0BF007C5CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C1272D1D23B0BF007C5CAD /* Aceshi */;
+			targetProxy = 18C127531D23B0BF007C5CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C1273A1D23B0BF007C5CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1273B1D23B0BF007C5CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C1273F1D23B0BF007C5CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C127401D23B0BF007C5CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C127591D23B0BF007C5CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C1275A1D23B0BF007C5CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C1275C1D23B0BF007C5CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aceshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aceshi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.Aceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C1275D1D23B0BF007C5CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aceshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aceshi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.Aceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C1275F1D23B0BF007C5CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AceshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.AceshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aceshi.app/Aceshi";
+			};
+			name = Debug;
+		};
+		18C127601D23B0BF007C5CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AceshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.AceshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aceshi.app/Aceshi";
+			};
+			name = Release;
+		};
+		18C127621D23B0BF007C5CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AceshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.AceshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aceshi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18C127631D23B0BF007C5CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AceshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LBB.AceshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aceshi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C127291D23B0BF007C5CAD /* Build configuration list for PBXProject "Aceshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C127591D23B0BF007C5CAD /* Debug */,
+				18C1275A1D23B0BF007C5CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C1275B1D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "Aceshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1275C1D23B0BF007C5CAD /* Debug */,
+				18C1275D1D23B0BF007C5CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C1275E1D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "AceshiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1275F1D23B0BF007C5CAD /* Debug */,
+				18C127601D23B0BF007C5CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C127611D23B0BF007C5CAD /* Build configuration list for PBXNativeTarget "AceshiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C127621D23B0BF007C5CAD /* Debug */,
+				18C127631D23B0BF007C5CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C127261D23B0BF007C5CAD /* Project object */;
+}
