@@ -19,7 +19,7 @@
     [super viewDidLoad];
 
    NSLog(@"========== %@",[MathTool num1:1 AddNum2:2]);
-    
+    //我是好人吗
     
 
 
